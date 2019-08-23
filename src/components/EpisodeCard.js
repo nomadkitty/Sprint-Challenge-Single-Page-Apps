@@ -10,7 +10,7 @@ export default function EpisodeCard(props) {
         <Card.Header>{props.name}</Card.Header>
         <Card.Description>
           {`Episode: ${props.episode}`} <br/>
-          {`Air Date: ${props.airdate}`}
+          {`Air Date: ${props.airDate}`}
         </Card.Description>
       </Card.Content>
     </Card>

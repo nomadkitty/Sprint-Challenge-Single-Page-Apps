@@ -23,7 +23,7 @@ return (
                     id={item.id}
                     name={item.name}
                     episode={item.episode}
-                    airDate={item.air_date}
+                    airDate={item['air_date']}
                 />
             )
         })}

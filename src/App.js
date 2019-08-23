@@ -7,6 +7,8 @@ import CharcterList from "./components/CharacterList";
 import LocationList from "./components/LocationsList";
 import EpisodeList from "./components/EpisodeList";
 
+import "./App.scss";
+
 
 export default function App() {
   return (
