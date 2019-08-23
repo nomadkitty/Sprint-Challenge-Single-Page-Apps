@@ -3,15 +3,15 @@ import { Card } from "semantic-ui-react";
 
 
 
-export default function LocationCard(props) {
+export default function EpisodeCard(props) {
   return (
-    <Card key={props.id} className="locationCard">
+    <Card key={props.id}>
       <Card.Content>
         <Card.Header>{props.name}</Card.Header>
         <Card.Description>
-          {`${props.type} - ${props.dimension}`}
+          {`Episode: ${props.episode}`} <br/>
+          {`Air Date: ${props.airDate}`}
         </Card.Description>
-        <Card.Meta className="locationMeta">{`${props.residents} residents`}</Card.Meta>
       </Card.Content>
     </Card>
 
