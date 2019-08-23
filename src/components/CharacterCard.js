@@ -10,8 +10,8 @@ export default function CharacterCard(props) {
       <Card.Header>{props.name}</Card.Header>
       <Card.Meta>{`${props.species} ${props.status}`}</Card.Meta>
       <Card.Description>
-        {props.location}
-        {props.origin}
+        {`Location: ${props.location}`} <br />
+        {`Origin: ${props.origin}`}
       </Card.Description>
     </Card.Content>
     <Card.Content extra>

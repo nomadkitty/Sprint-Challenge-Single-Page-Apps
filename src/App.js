@@ -6,7 +6,7 @@ import WelcomePage from "./components/WelcomePage";
 import CharcterList from "./components/CharacterList";
 import LocationList from "./components/LocationsList";
 import EpisodeList from "./components/EpisodeList";
-
+import SearchForm from "./components/SearchForm";
 import "./App.scss";
 
 
@@ -15,6 +15,7 @@ export default function App() {
     <main>
       <Header />
       <TabNav />
+      {/* <SearchForm /> */}
       <Route exact path="/" component={WelcomePage} />
       <Route path="/character" component={CharcterList} />
       <Route path="/location" component={LocationList} />
